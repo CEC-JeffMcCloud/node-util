@@ -19,7 +19,7 @@
 // OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
 // USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-module.exports = exports;
+exports = module.exports;
 
 var formatRegExp = /%[sdj%]/g;
 exports.format = function(f) {
